@@ -1,0 +1,104 @@
+import { Trans, useTranslation } from "react-i18next";
+import { useEffect, useState } from "react";
+import { LanguageSwitcher } from "./LanguageSwitcher";
+import { WhoWeAre } from "./WhoWeAre";
+import { AboutResearch } from "./AboutResearch";
+import { Conference } from "./Conference";
+import { WhySupport } from "./WhySupport";
+import { Costs } from "./Costs";
+import { Goal } from "./Goal";
+import { Impact } from "./Impact";
+import { Donate } from "./Donate";
+import { FinalCTA } from "./FinalCTA";
+
+export default function Hero() {
+  const { t } = useTranslation();
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // controla a intensidade
+  const opacity = Math.max(1 - scrollY / 400, 0);
+  const translateY = Math.min(scrollY * 0.3, 100);
+
+  return (
+    <>
+      {/* HERO FIXO COM ANIMAÇÃO */}
+      <section
+        className="fixed inset-0 z-0 min-h-screen w-full bg-background text-secondary"
+        style={{
+          opacity,
+          transform: `translateY(${translateY}px)`,
+        }}
+      >
+        <div className="absolute top-6 right-6">
+          <LanguageSwitcher />
+        </div>
+
+        <div className="flex items-center justify-center h-full">
+          <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 md:px-8">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
+              {t("hero_title")}
+            </h1>
+
+            <p className="mt-6 text-base sm:text-lg opacity-80 max-w-2xl mx-auto">
+              <Trans
+                i18nKey="hero_subtitle"
+                components={[
+                  <a
+                    href="#conference"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:opacity-70 transition"
+                  />,
+                ]}
+              />
+            </p>
+
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="#donate"
+                className="bg-primary text-white px-6 py-3 rounded-2xl font-medium shadow-md hover:opacity-90 transition"
+              >
+                {t("hero_donate")}
+              </a>
+              <a
+                href="#whoWeAre"
+                className="border border-primary text-primary px-6 py-3 rounded-2xl font-medium hover:bg-primary/10 transition"
+              >
+                {t("hero_whoweare")}
+              </a>
+              <a
+                href="#aboutResearch"
+                className="border border-primary text-primary px-6 py-3 rounded-2xl font-medium hover:bg-primary/10 transition"
+              >
+                {t("hero_aboutresearch")}
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CONTEÚDO */}
+      <div className="relative z-10 mt-[100vh] bg-white/50 backdrop-blur-xl">
+        <div className="py-20 px-6">
+          <WhoWeAre />
+          <AboutResearch />
+          <Conference />
+          <WhySupport />
+          <Costs />
+          <Goal />
+          <Impact />
+          <Donate />
+          <FinalCTA />
+        </div>
+      </div>
+    </>
+  );
+}

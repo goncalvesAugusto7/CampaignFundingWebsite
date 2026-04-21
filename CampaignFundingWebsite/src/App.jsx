@@ -1,16 +1,9 @@
-import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Vitrine from "./components/Vitrine";
-import Footer from "./components/Footer";
-import "./index.css";
 
-function App() {
+export default function App() {
   return (
     <>
-      <Header />
-      <Footer />
+      <Hero />
     </>
   );
 }
-
-export default App;
