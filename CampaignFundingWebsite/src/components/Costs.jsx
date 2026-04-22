@@ -16,10 +16,10 @@ export function Costs() {
           </div>
 
           {[
-            [t("costs_flights"), "$X"],
-            [t("costs_accommodation"), "$X"],
-            [t("costs_registration"), "$X"],
-            [t("costs_meals"), "$X"],
+            [t("costs_flights"), "$1500x3"],
+            [t("costs_accommodation"), "$750x3"],
+            [t("costs_registration"), "$620x3"],
+            [t("costs_meals"), "$700x3"],
           ].map(([item, cost]) => (
             <div
               key={item}
@@ -33,7 +33,7 @@ export function Costs() {
           {/* Total destacado */}
           <div className="grid grid-cols-2 p-4 bg-primary/10 font-semibold">
             <span>{t("costs_total")}</span>
-            <span className="text-right">$X</span>
+            <span className="text-right">$11460</span>
           </div>
         </div>
       </div>

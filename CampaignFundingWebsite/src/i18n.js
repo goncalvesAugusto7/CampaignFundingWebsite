@@ -49,7 +49,7 @@ const resources = {
 
       goal_title: "Our Goal",
       goal_text_pt1: "We aim to raise",
-      goal_text_value: " $15,000 ",
+      goal_text_value: " $11,460 ",
       goal_text_pt2: "to make this participation possible.",
       goal_progress: "% funded",
 
@@ -114,11 +114,12 @@ const resources = {
       costs_accommodation: "Hospedagem",
       costs_registration: "Inscrição",
       costs_meals: "Alimentação e transporte",
+
       costs_total: "Total",
 
       goal_title: "Nosso objetivo",
       goal_text_pt1: "Nosso objetivo é arrecadar",
-      goal_text_value: " $15.000 ",
+      goal_text_value: " $11.460 ",
       goal_text_pt2: "para tornar essa participação possível.",
       goal_progress: "% arrecadado",
 

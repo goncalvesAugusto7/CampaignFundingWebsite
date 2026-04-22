@@ -26,7 +26,7 @@ export function WhoWeAre() {
                 className="text-primary hover:opacity-70 underline transition"
               />,
               <a
-                href=""
+                href="http://lattes.cnpq.br/1779289943235667"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:opacity-70 underline transition"
