@@ -42,7 +42,7 @@ const resources = {
 
       costs_title: "Estimated Costs",
       costs_item: "Item",
-      costs_value: "Cost (BR)",
+      costs_value: "Cost (BRL)",
       costs_flights: "Flights",
       costs_accommodation: "Accommodation",
       costs_registration: "Registration",
@@ -112,7 +112,7 @@ const resources = {
 
       costs_title: "Custos estimados",
       costs_item: "Item",
-      costs_value: "Custo (USD)",
+      costs_value: "Custo (BRL)",
       costs_flights: "Passagens aéreas",
       costs_accommodation: "Hospedagem",
       costs_registration: "Inscrição",
