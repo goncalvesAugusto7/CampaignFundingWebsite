@@ -17,13 +17,19 @@ export function WhoWeAre() {
                 href="http://lattes.cnpq.br/2580162312562951"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary hover:opacity-70 transition"
+                className="text-primary hover:opacity-70 underline transition"
               />,
               <a
                 href="http://lattes.cnpq.br/2317130869085519"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary hover:opacity-70 transition"
+                className="text-primary hover:opacity-70 underline transition"
+              />,
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:opacity-70 underline transition"
               />,
             ]}
           />

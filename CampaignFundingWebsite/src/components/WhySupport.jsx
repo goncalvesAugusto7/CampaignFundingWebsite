@@ -13,8 +13,6 @@ export function WhySupport() {
         <p className="mt-6 text-lg opacity-80">{t("whySupport_p1")}</p>
 
         <p className="mt-4 text-lg opacity-80">{t("whySupport_p2")}</p>
-
-        <p className="mt-4 text-lg opacity-80">{t("whySupport_p3")}</p>
       </div>
     </section>
   );
