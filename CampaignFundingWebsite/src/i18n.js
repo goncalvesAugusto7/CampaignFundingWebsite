@@ -25,6 +25,7 @@ const resources = {
         "<0>Our research</0> explores how health data can be used in a responsible, transparent and strategically distributed way, respecting privacy laws with a focus on the brazilian General Data Protection Law.",
       aboutResearch_p2:
         "We propose a federated data architecture that allows institutions to collaborate synergistically without exposing sensitive personal data, contributing to better governance and more assertive public policy decisions..",
+      aboutResearch_download_link: "<0>(Click here to download the paper)</0>",
 
       conference_title: "About the Conference",
       conference_p1:
@@ -94,6 +95,7 @@ const resources = {
         "<0>Nossa pesquisa</0> explora como os dados de saúde podem ser usados de forma responsável, transparente e estrategicamente distribuída, respeitando leis de privacidade com foco na Lei Geral de Proteção de Dados.",
       aboutResearch_p2:
         "Propomos uma arquitetura de dados federada que permite às instituições colaborar com sinergia sem expor dados pessoais sensíveis, contribuindo para uma melhor governança e decisões de políticas públicas mais assertivas.",
+      aboutResearch_download_link: "<0>(Clique aqui para baixar o paper)</0>",
 
       conference_title: "Sobre a Conferência",
       conference_p1:

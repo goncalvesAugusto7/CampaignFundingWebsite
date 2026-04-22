@@ -24,6 +24,19 @@ export function AboutResearch() {
         </p>
 
         <p className="mt-4 text-lg opacity-80">{t("aboutResearch_p2")}</p>
+
+        <p className="mt-6 text-lg opacity-80">
+          <Trans
+            i18nKey="aboutResearch_download_link"
+            components={[
+              <a
+                href="/Data Architectures for Health under the LGPD: Institutional Coordination, Risk, and Governance in Brazil.pdf"
+                download
+                className="text-primary hover:opacity-70 underline transition"
+              />,
+            ]}
+          />
+        </p>
       </div>
     </section>
   );
