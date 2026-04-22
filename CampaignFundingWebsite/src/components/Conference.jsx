@@ -21,7 +21,7 @@ export function Conference() {
                 href="https://celsbrazil.org.br/index.html"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary hover:opacity-70 transition"
+                className="text-primary hover:opacity-70 underline transition"
               />,
             ]}
           />

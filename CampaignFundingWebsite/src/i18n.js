@@ -16,7 +16,7 @@ const resources = {
 
       whoWeAre_title: "Who We Are",
       whoWeAre_p1:
-        "We are a research team from Maranhão, Brazil, composed of Sóstenes Azevedo Soeiro, Augusto Gonçalves Santos, and Flávio Conceição Freitas Rubim Ferreira. We work at the intersection of law, public health, and data governance. Our work is linked to institutions such as UFMA (Federal University of Maranhão) and public health organizations.",
+        "We are a research team from Maranhão, Brazil, composed of <0>Sóstenes Azevedo Soeiro</0>, <1>Augusto Gonçalves Santos</1>, and <2>Flávio Conceição Freitas Rubim Ferreira</2>. We work at the intersection of law, public health, and data governance. Our work is linked to institutions such as UFMA (Federal University of Maranhão) and public health organizations.",
       whoWeAre_p2:
         "Our goal is to contribute to global discussions on data, inequality, and public policy through research grounded in real-world challenges.",
 
@@ -28,7 +28,7 @@ const resources = {
 
       conference_title: "About the Conference",
       conference_p1:
-        "<0>The Conference on Empirical Legal Studies (CELS)</0> is a leading international event in empirical legal research, bringing together scholars from around the world.",
+        "The <0>Conference on Empirical Legal Studies (CELS)</0> is a leading international event in empirical legal research, bringing together scholars from around the world.",
       conference_p2:
         "Participation is highly competitive, and acceptance represents international academic recognition — not just attendance, but contribution.",
 
@@ -86,7 +86,7 @@ const resources = {
 
       whoWeAre_title: "Quem somos",
       whoWeAre_p1:
-        "Somos uma equipe de pesquisa do Maranhão, Brasil, composta por Sóstenes Azevedo Soeiro, Augusto Gonçalves Santos e Flávio Conceição Freitas Rubim Ferreira. Atuamos na interseção entre direito, saúde pública e governança de dados. Nosso trabalho está ligado a instituições como a UFMA e organizações de saúde pública.",
+        "Somos uma equipe de pesquisa do Maranhão, Brasil, composta por <0>Sóstenes Azevedo Soeiro</0>, <1>Augusto Gonçalves Santos</1> e <2>Flávio Conceição Freitas Rubim Ferreira</2>. Atuamos na interseção entre direito, saúde pública e governança de dados. Nosso trabalho está ligado a instituições como a UFMA e organizações de saúde pública.",
       whoWeAre_p2:
         "Nosso objetivo é contribuir para os debates globais sobre dados, desigualdade e políticas públicas por meio de pesquisas fundamentadas em desafios do mundo real.",
 
@@ -98,7 +98,7 @@ const resources = {
 
       conference_title: "Sobre a Conferência",
       conference_p1:
-        "<0>A Conferência sobre Estudos Jurídicos Empíricos (CELS)</0> é um evento internacional de referência na área da pesquisa jurídica empírica, reunindo acadêmicos de todo o mundo.",
+        "A <0>Conferência sobre Estudos Jurídicos Empíricos (CELS)</0> é um evento internacional de referência na área da pesquisa jurídica empírica, reunindo acadêmicos de todo o mundo.",
       conference_p2:
         "A participação é altamente competitiva, e a aceitação representa reconhecimento acadêmico internacional — não apenas presença, mas contribuição.",
 

@@ -17,7 +17,7 @@ export function AboutResearch() {
                 href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6313138"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary hover:opacity-70 transition"
+                className="text-primary hover:opacity-70 underline transition"
               />,
             ]}
           />

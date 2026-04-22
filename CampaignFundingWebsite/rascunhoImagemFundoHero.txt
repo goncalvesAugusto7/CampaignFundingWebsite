@@ -32,10 +32,11 @@ export default function Hero() {
     <>
       {/* HERO FIXO COM ANIMAÇÃO */}
       <section
-        className="fixed inset-0 z-0 min-h-screen w-full bg-background text-secondary"
+        className="fixed inset-0 z-0 min-h-screen w-full text-white"
         style={{
-          opacity,
-          transform: `translateY(${translateY}px)`,
+          backgroundImage: "url('/SAF.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute top-6 right-6">
@@ -44,10 +45,12 @@ export default function Hero() {
 
         <div className="flex items-center justify-center h-full">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 md:px-8">
+            {/*<h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight [text-shadow:0_2px_8px_rgba(0,0,0,0.8)]">*/}
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
               {t("hero_title")}
             </h1>
 
+            {/*<p className="mt-6 text-base sm:text-lg opacity-80 max-w-2xl mx-auto [text-shadow:0_1px_6px_rgba(0,0,0,0.7)">*/}
             <p className="mt-6 text-base sm:text-lg opacity-80 max-w-2xl mx-auto">
               <Trans
                 i18nKey="hero_subtitle"
@@ -64,19 +67,19 @@ export default function Hero() {
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#donate"
-                className="bg-primary text-white px-6 py-3 rounded-2xl font-medium shadow-md hover:opacity-90 transition"
+                className="bg-primary text-white px-6 py-3 rounded-2xl font-medium shadow-md hover:opacity-90 transition "
               >
                 {t("hero_donate")}
               </a>
               <a
                 href="#whoWeAre"
-                className="border border-primary text-primary px-6 py-3 rounded-2xl font-medium hover:bg-primary/10 transition"
+                className="bg-background border border-primary text-primary px-6 py-3 rounded-2xl font-medium hover:bg-background/10 transition"
               >
                 {t("hero_whoweare")}
               </a>
               <a
                 href="#aboutResearch"
-                className="border border-primary text-primary px-6 py-3 rounded-2xl font-medium hover:bg-primary/10 transition"
+                className="bg-background border border-primary text-primary px-6 py-3 rounded-2xl font-medium hover:bg-background/10 transition"
               >
                 {t("hero_aboutresearch")}
               </a>
