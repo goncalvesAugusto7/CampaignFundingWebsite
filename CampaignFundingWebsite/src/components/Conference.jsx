@@ -28,6 +28,20 @@ export function Conference() {
         </p>
 
         <p className="mt-4 text-lg opacity-80">{t("conference_p2")}</p>
+
+        <p className="mt-6 text-lg opacity-80">
+          <Trans
+            i18nKey="conference_link_accepted"
+            components={[
+              <a
+                href="https://celsbrazil.org.br/accepted.html#:~:text=Data%20Architectures%20for,(SES%2DMA)"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:opacity-70 underline transition"
+              />,
+            ]}
+          />
+        </p>
       </div>
     </section>
   );

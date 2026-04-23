@@ -33,6 +33,8 @@ const resources = {
         "The <0>Conference on Empirical Legal Studies (CELS)</0> is a leading international event in empirical legal research, bringing together scholars from around the world. In 2026, the event will take place between June 8th and 10th in the city of São Paulo.",
       conference_p2:
         "Participation is highly competitive, and acceptance represents international academic recognition.",
+      conference_link_accepted:
+        "<0>(You can check the acceptance of our work in the Accepted Papers list by clicking here)<0>",
 
       whySupport_title: "Why We Need Your Support",
       whySupport_p1:
@@ -71,7 +73,7 @@ const resources = {
       donate_gofundme: "GoFundMe",
 
       donate_footer:
-        "Supporting this project means enabling voices from underrepresented regions to participate in global academic debates. Every contribution makes a difference.",
+        "Supporting this project helps make it possible for our work to bear great fruit for the country and bring recognition to our region. Every contribution makes a difference, and we appreciate any and all support. Praise be to God.",
 
       donate_cta: "Donate",
     },
@@ -106,6 +108,8 @@ const resources = {
         "A <0>Conferência sobre Estudos Jurídicos Empíricos (CELS)</0> é um evento internacional de referência na área da pesquisa jurídica empírica, reunindo acadêmicos de todo o mundo. Em 2026, o evento acontecerá entre os dias 8 e 10 de junho na cidade de São Paulo.",
       conference_p2:
         "A participação é altamente competitiva, e a aceitação representa reconhecimento acadêmico internacional.",
+      conference_link_accepted:
+        "<0>(Você pode conferir a aceitação do nosso trabalho na lista de Artigos Aceitos clicando aqui)<0>",
 
       whySupport_title: "Por que precisamos do seu apoio",
       whySupport_p1:
@@ -145,7 +149,7 @@ const resources = {
       donate_gofundme: "GoFundMe",
 
       donate_footer:
-        "Apoiar este projeto ajuda a possibilitar que nosso trabalho traga grandes frutos para o país e traga reconheimento para nossa região. Toda contribuição faz a diferença e agradecemos todo e qualquer apoio.\nDeus seja louvado.",
+        "Apoiar este projeto ajuda a tornar possível que nosso trabalho dê grandes frutos para o país e traga reconhecimento à nossa região. Cada contribuição faz a diferença e agradecemos todo e qualquer apoio. Louvado seja Deus.",
 
       donate_cta: "Doar",
     },
