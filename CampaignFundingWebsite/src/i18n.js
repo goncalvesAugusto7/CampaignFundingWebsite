@@ -30,13 +30,13 @@ const resources = {
 
       conference_title: "About the Conference",
       conference_p1:
-        "The <0>Conference on Empirical Legal Studies (CELS)</0> is a leading international event in empirical legal research, bringing together scholars from around the world.",
+        "The <0>Conference on Empirical Legal Studies (CELS)</0> is a leading international event in empirical legal research, bringing together scholars from around the world. In 2026, the event will take place between June 8th and 10th in the city of São Paulo.",
       conference_p2:
         "Participation is highly competitive, and acceptance represents international academic recognition.",
 
       whySupport_title: "Why We Need Your Support",
       whySupport_p1:
-        "We currently do not have institutional funding to cover this trip and our team includes researchers with limited financial resources, including one member still in academic training.",
+        "We currently do not have institutional funding to cover this trip and our team includes researchers with limited financial resources, including one member still in academic training. Despite this, we were the only paper selected from Maranhão and among the few from the Northeast to represent Brazil at the Conference.",
       whySupport_p2:
         "This will be the first international academic experience for all members of our team. We are also one of the very few research groups from the Northeast of Brazil represented at this conference.",
 
@@ -103,13 +103,13 @@ const resources = {
 
       conference_title: "Sobre a Conferência",
       conference_p1:
-        "A <0>Conferência sobre Estudos Jurídicos Empíricos (CELS)</0> é um evento internacional de referência na área da pesquisa jurídica empírica, reunindo acadêmicos de todo o mundo.",
+        "A <0>Conferência sobre Estudos Jurídicos Empíricos (CELS)</0> é um evento internacional de referência na área da pesquisa jurídica empírica, reunindo acadêmicos de todo o mundo. Em 2026, o evento acontecerá entre os dias 8 e 10 de junho na cidade de São Paulo.",
       conference_p2:
         "A participação é altamente competitiva, e a aceitação representa reconhecimento acadêmico internacional.",
 
       whySupport_title: "Por que precisamos do seu apoio",
       whySupport_p1:
-        "Atualmente, não temos financiamento institucional para custear essa viagem e nossa equipe inclui pesquisadores com recursos financeiros limitados, incluindo um integrante ainda em formação acadêmica.",
+        "Atualmente, não temos financiamento institucional para custear essa viagem e nossa equipe inclui pesquisadores com recursos financeiros limitados, incluindo um integrante ainda em formação acadêmica. Apesar disso, fomos o único artigo selecionado do Maranhão e entre os poucos do Nordeste para representar o Brasil na Conferência.",
       whySupport_p2:
         "Esta será a primeira experiência acadêmica internacional para todos os membros da nossa equipe. Também somos um dos poucos grupos de pesquisa do Nordeste do Brasil representados nesta conferência.",
 
