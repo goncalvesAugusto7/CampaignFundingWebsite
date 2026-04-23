@@ -145,7 +145,7 @@ const resources = {
       donate_gofundme: "GoFundMe",
 
       donate_footer:
-        "Apoiar este projeto ajuda a possibilitar que nosso trabalho traga grandes frutos para o país e traga reconheimento para nossa região. Toda contribuição faz a diferençae agradecemos todo e qualquer apoio.\nDeus seja louvado.",
+        "Apoiar este projeto ajuda a possibilitar que nosso trabalho traga grandes frutos para o país e traga reconheimento para nossa região. Toda contribuição faz a diferença e agradecemos todo e qualquer apoio.\nDeus seja louvado.",
 
       donate_cta: "Doar",
     },
