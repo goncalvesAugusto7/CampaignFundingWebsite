@@ -80,7 +80,7 @@ const resources = {
   pt: {
     translation: {
       hero_title:
-        "Ajude pesquisadores brasileiros a apresentar em uma conferência internacional",
+        "Ajude pesquisadores independentes a apresentar em uma conferência internacional",
       hero_subtitle:
         "Apoie a primeira apresentação acadêmica internacional de uma equipe de pesquisa do Maranhão no <0>CELS GLOBAL 2026</0>.",
       hero_donate: "Doar",
