@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 export function Goal() {
   const { t } = useTranslation();
   const total = 11460;
-  const amount = 162.01;
+  const amount = 302.21;
   const progress = (amount * 100) / total;
   return (
     <section className="bg-white text-secondary py-20 px-6 text-center">
