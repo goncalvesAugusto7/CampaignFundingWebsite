@@ -10,6 +10,7 @@ import { Goal } from "./Goal";
 import { Impact } from "./Impact";
 import { Donate } from "./Donate";
 import { FinalCTA } from "./FinalCTA";
+import { FiMail } from "react-icons/fi";
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -54,7 +55,6 @@ export default function Hero() {
                 components={[
                   <a
                     href="#conference"
-                    rel="noopener noreferrer"
                     className="text-primary hover:opacity-70 underline transition"
                   />,
                 ]}
@@ -79,6 +79,15 @@ export default function Hero() {
                 className="border border-primary text-primary px-6 py-3 rounded-2xl font-medium hover:bg-primary/10 transition"
               >
                 {t("hero_aboutresearch")}
+              </a>
+              <a
+                href="mailto:sostenes.soeiro@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 border border-primary text-primary px-6 py-3 rounded-2xl font-medium hover:bg-primary/10 transition"
+              >
+                <FiMail className="w-4 h-4" />
+                <span>{t("hero_contact")}</span>
               </a>
             </div>
           </div>

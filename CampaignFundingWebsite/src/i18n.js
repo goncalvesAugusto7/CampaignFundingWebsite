@@ -13,6 +13,7 @@ const resources = {
       hero_donate: "Donate",
       hero_whoweare: "Get to know us",
       hero_aboutresearch: "Learn about our work",
+      hero_contact: "Contact us",
 
       whoWeAre_title: "Who We Are",
       whoWeAre_p1:
@@ -59,6 +60,8 @@ const resources = {
         "Your contribution helps represent underrepresented regions in global academic discussions.",
       impact_p2:
         "It supports Brazilian research, empowers young researchers, and expands the global conversation on data, inequality, and public policy.",
+      impact_contact:
+        "<0>If you have any questions, click here to contact us via email</0>",
 
       donate_title: "How to Contribute",
       donate_subtitle: "You can help us by making a transfer via PIX.",
@@ -83,6 +86,7 @@ const resources = {
       hero_donate: "Doar",
       hero_whoweare: "Conheça-nos",
       hero_aboutresearch: "Conheça nosso trabalho",
+      hero_contact: "Contate-nos",
 
       whoWeAre_title: "Quem somos",
       whoWeAre_p1:
@@ -130,6 +134,8 @@ const resources = {
         "Sua contribuição ajuda a representar regiões sub-representadas em debates acadêmicos globais.",
       impact_p2:
         "Ela fortalece a pesquisa brasileira, apoia jovens pesquisadores e amplia o debate global sobre dados, desigualdade e políticas públicas.",
+      impact_contact:
+        "<0>Caso tenha alguma dúvida, clique aqui para entrar em contato conosco via e-mail</0>",
 
       donate_title: "Como contribuir",
       donate_subtitle: "Você pode nos ajudar por transferência via PIX.",

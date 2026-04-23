@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 
 export function Impact() {
   const { t } = useTranslation();
@@ -13,6 +13,20 @@ export function Impact() {
         <p className="mt-6 text-lg opacity-80">{t("impact_p1")}</p>
 
         <p className="mt-4 text-lg opacity-80">{t("impact_p2")}</p>
+
+        <p className="mt-6 text-lg opacity-80">
+          <Trans
+            i18nKey="impact_contact"
+            components={[
+              <a
+                href="mailto:sostenes.soeiro@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:opacity-70 transition"
+              />,
+            ]}
+          />
+        </p>
       </div>
     </section>
   );
