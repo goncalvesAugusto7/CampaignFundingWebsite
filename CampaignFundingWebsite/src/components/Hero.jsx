@@ -17,84 +17,96 @@ export default function Hero() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
+    const handleScroll = () => setScrollY(window.scrollY);
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // controla a intensidade
   const opacity = Math.max(1 - scrollY / 400, 0);
   const translateY = Math.min(scrollY * 0.3, 100);
 
   return (
     <>
-      {/* HERO FIXO COM ANIMAÇÃO */}
+      {/* HERO FIXO */}
       <section
-        className="fixed inset-0 z-0 min-h-screen w-full bg-background text-secondary"
+        className="
+          fixed inset-0 z-0 min-h-screen w-full text-white
+          bg-hero-mobile sm:bg-hero-desktop
+          bg-cover bg-center
+        "
         style={{
           opacity,
           transform: `translateY(${translateY}px)`,
         }}
       >
-        <div className="absolute top-6 right-6">
-          <LanguageSwitcher />
-        </div>
+        {/* overlay para melhorar contraste */}
+        <div className="absolute inset-0 bg-black/50" />
 
-        <div className="flex items-center justify-center h-full">
-          <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 md:px-8">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
-              {t("hero_title")}
-            </h1>
+        {/* conteúdo */}
+        <div className="relative z-10">
+          <div className="absolute top-6 right-6">
+            <LanguageSwitcher />
+          </div>
 
-            <p className="mt-6 text-base sm:text-lg opacity-80 max-w-2xl mx-auto">
-              <Trans
-                i18nKey="hero_subtitle"
-                components={[
-                  <a
-                    href="#conference"
-                    className="text-primary hover:opacity-70 underline transition"
-                  />,
-                ]}
-              />
-            </p>
+          <div className="flex items-center justify-center h-screen">
+            <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 md:px-8">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
+                {t("hero_title")}
+              </h1>
 
-            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="#donate"
-                className="bg-primary text-white px-6 py-3 rounded-2xl font-medium shadow-md hover:opacity-90 transition"
-              >
-                {t("hero_donate")}
-              </a>
-              <a
-                href="#whoWeAre"
-                className="border border-primary text-primary px-6 py-3 rounded-2xl font-medium hover:bg-primary/10 transition"
-              >
-                {t("hero_whoweare")}
-              </a>
-              <a
-                href="#aboutResearch"
-                className="border border-primary text-primary px-6 py-3 rounded-2xl font-medium hover:bg-primary/10 transition"
-              >
-                {t("hero_aboutresearch")}
-              </a>
-              <a
-                href="mailto:sostenes.soeiro@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 border border-primary text-primary px-6 py-3 rounded-2xl font-medium hover:bg-primary/10 transition"
-              >
-                <FiMail className="w-4 h-4" />
-                <span>{t("hero_contact")}</span>
-              </a>
+              <p className="mt-6 text-base sm:text-lg opacity-90 max-w-2xl mx-auto">
+                <Trans
+                  i18nKey="hero_subtitle"
+                  components={{
+                    link: (
+                      <a
+                        href="#conference"
+                        className="text-primary underline hover:opacity-80 transition"
+                      />
+                    ),
+                  }}
+                />
+              </p>
+
+              <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                  href="#donate"
+                  className="bg-primary text-white px-6 py-3 rounded-2xl font-medium shadow-md hover:opacity-90 transition"
+                >
+                  {t("hero_donate")}
+                </a>
+
+                <a
+                  href="#whoWeAre"
+                  className="border border-primary text-primary px-6 py-3 rounded-2xl font-medium hover:bg-primary/10 transition"
+                >
+                  {t("hero_whoweare")}
+                </a>
+
+                <a
+                  href="#aboutResearch"
+                  className="border border-primary text-primary px-6 py-3 rounded-2xl font-medium hover:bg-primary/10 transition"
+                >
+                  {t("hero_aboutresearch")}
+                </a>
+
+                <a
+                  href="mailto:sostenes.soeiro@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 border border-primary text-primary px-6 py-3 rounded-2xl font-medium hover:bg-primary/10 transition"
+                >
+                  <FiMail className="w-4 h-4" />
+                  <span>{t("hero_contact")}</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CONTEÚDO */}
+      {/* CONTEÚDO ABAIXO */}
       <div className="relative z-10 mt-[100vh] bg-white/50 backdrop-blur-xl">
         <div className="py-20 px-6">
           <WhoWeAre />

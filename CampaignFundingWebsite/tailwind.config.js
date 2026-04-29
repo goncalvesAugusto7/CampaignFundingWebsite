@@ -11,6 +11,11 @@ export default {
       fontFamily: {
         sans: ["Rubik", "sans-serif"],
       },
+
+      backgroundImage: {
+        "hero-mobile": "url('/SAF_bg_vertical.jpeg')",
+        "hero-desktop": "url('/SAF_bg_horizontal.jpeg')",
+      },
     },
   },
   plugins: [],
