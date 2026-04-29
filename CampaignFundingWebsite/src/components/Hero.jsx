@@ -58,14 +58,12 @@ export default function Hero() {
               <p className="mt-6 text-base sm:text-lg opacity-90 max-w-2xl mx-auto">
                 <Trans
                   i18nKey="hero_subtitle"
-                  components={{
-                    link: (
-                      <a
-                        href="#conference"
-                        className="text-primary underline hover:opacity-80 transition"
-                      />
-                    ),
-                  }}
+                  components={[
+                    <a
+                      href="#conference"
+                      className="text-primary underline hover:opacity-80 transition"
+                    />,
+                  ]}
                 />
               </p>
 
