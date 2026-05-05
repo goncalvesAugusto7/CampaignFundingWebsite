@@ -20,6 +20,7 @@ const resources = {
         "We are an independent research team from Maranhão, composed of <0>Sóstenes Azevedo Soeiro</0>, <1>Augusto Gonçalves Santos</1> and <2>Flávio Conceição Freitas Rubim Ferreira</2>. We work at the intersection between law, public health and governance/data analysis and our work is linked to institutions such as UFMA and public health organizations.",
       whoWeAre_p2:
         "Our goal is to contribute to global debates on health data and information distribution, improving the work of professionals in the field and public policies through research based on real-world challenges.",
+      whoWeAre_video: "presentationVideoUS.mp4",
 
       aboutResearch_title: "About the Research",
       aboutResearch_p1:
@@ -95,6 +96,7 @@ const resources = {
         "Somos uma equipe de pesquisa independente do Maranhão, composta por <0>Sóstenes Azevedo Soeiro</0>, <1>Augusto Gonçalves Santos</1> e <2>Flávio Conceição Freitas Rubim Ferreira</2>. Atuamos na interseção entre direito, saúde pública e governança/análise de dados e nosso trabalho está ligado a instituições como a UFMA e organizações de saúde pública.",
       whoWeAre_p2:
         "Nosso objetivo é contribuir para os debates globais sobre dados de saúde e distribuição da informação, melhora do trabalho de profissionais da área e políticas públicas por meio de pesquisas fundamentadas em desafios do mundo real.",
+      whoWeAre_video: "presentationVideo.mp4",
 
       aboutResearch_title: "Sobre a Pesquisa",
       aboutResearch_p1:

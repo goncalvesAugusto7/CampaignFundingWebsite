@@ -58,7 +58,7 @@ export function WhoWeAre() {
                 controls={started}
                 className="w-full h-full object-cover rounded-2xl shadow-lg"
               >
-                <source src="/presentationVideo.mp4" type="video/mp4" />
+                <source src={t("whoWeAre_video")} type="video/mp4" />
               </video>
 
               {!started && (
